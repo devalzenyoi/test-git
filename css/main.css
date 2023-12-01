@@ -86,6 +86,59 @@ img {
     margin: 0;
 }
 
+/* Detail pokemon styles */
+#container-pokemon {
+    padding: 40px 0 80px 0;
+}
+
+.content-poke .back-url {
+    text-decoration: none;
+    color: rgba(0,0,0,.5);
+    transition: .2s ease-in-out;
+}
+
+.content-poke .back-url:hover {
+    color: rgb(18, 18, 18);
+}
+
+.content-poke .back-url span {
+    font-weight: 700;
+}
+
+.content-poke {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content-poke #title-pkemon {
+    font-size: 6rem;
+    text-transform: capitalize;
+    margin: 40px 0 10px;
+}
+
+.content-poke .type-pok {
+    margin-bottom: 60px;
+}
+
+.content-poke .detail-pok {
+    border: 1px solid #8080805e;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px #8080805e;
+}
+
+.content-poke .detail-pok .content-img{
+    position: relative;
+}
+
+.content-poke .detail-pok .content-img img{
+    position: absolute;
+    top: -76px;
+    right: 50px;
+    width: 120px;
+    height: 120px;
+}
+
 .footer {
     padding: 60px 0;
     color: rgb(18, 18, 18);
